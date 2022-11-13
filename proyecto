@@ -3,7 +3,7 @@
   cls
   echo.    menu principal
   echo.
- 
+ color 02
   echo. 1- Realizar operaciones aritméticas 
   echo. 2- Busca fichero 
   echo. 3- Mostrar hora 
@@ -20,6 +20,8 @@
  rem /////////////////////////////////////////////////////////////////////////////////////////////////////
  rem /////////////////////////////////////////////////////////////////////////////////////////////////////
 :calculadora
+     echo.
+     color 72
      echo. 1. ingrese 1 para sumar
      echo. 2. ingrese 2 para restar
      echo. 3. ingrese 3 para multiplicar
@@ -133,4 +135,3 @@
 
 :salir2
  @cls&exit
- 
