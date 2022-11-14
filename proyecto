@@ -134,10 +134,5 @@ pause
      rem /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 :Salir 
- echo.
- set /p cont1="¿estás seguro/a que quieres salir si/no ?"
- IF "%cont1%"== "si" goto salir2
- IF "%cont1%"== "no" goto principal
 
-:salir2
  @cls&exit
